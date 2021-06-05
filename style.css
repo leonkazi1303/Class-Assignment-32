@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-content-one{
+    width: 700px;
+    height: 600px;
+    margin: auto;
+    border: 3px dashed black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.flex-content-one .flex-item{
+    background: red;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid green;
+}
+.flex-content-two{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.flex-content-two .flex-item{
+    background: red;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid blue;
+}
+.flex-content-three{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+}
+.flex-content-three .flex-item{
+    background: red;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid blue;
+}
+.flex-content-four{
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+
+}
+.flex-content-four .flex-item{
+    background: red;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid green;
+    flex-grow: 1;
+}
+.flex-content-five{
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+.flex-content-five .flex-item{
+    background: red;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid green;
+    flex-grow: 1;
+    
+}
+.flex-content-five .flex-item:nth-child(3) {
+    align-self: flex-end;
+}
+.flex-content-five .flex-item:nth-child(4) {
+    align-self: center;
+}
+.flex-content-six{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+
+}
+.flex-content-six .flex-item{
+    background: red;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid rgb(255, 255, 255);
+}
